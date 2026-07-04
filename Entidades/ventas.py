@@ -15,9 +15,3 @@ class Ventas:
             raise ValueError("El monto de la venta no puede ser un número negativo.")
         if not self.sucursal:
             raise ValueError("La sucursal de la venta no puede estar vacía.")
-
-    def historial_ventas(self):
-        pass
-
-    def calcular_monto_total(self):
-        pass

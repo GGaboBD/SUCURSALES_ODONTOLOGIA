@@ -1,6 +1,5 @@
 from Entidades.rol import Rol
 from Entidades.sucursal import Sucursal
-#Todo esto se conectara a una base de datos por medio de una API
 
 class personal_administrativo:
     def __init__(self, ID_personal_admin: int, nombre_personal_admin: str, rol: Rol, sucursal: Sucursal):
@@ -20,7 +19,6 @@ class personal_administrativo:
             raise ValueError("La sucursal del personal administrativo no puede estar vacía.")
         
 
-# quiero agregar un metodo que me permita cambiar la disponibilidad del personal administrativo, para que pueda ser activado o desactivado según sea necesario.
 
     def cambiar_disponibilidad(self, nueva_disponibilidad: str):
         if nueva_disponibilidad not in ["activo", "inactivo"]:
