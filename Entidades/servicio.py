@@ -3,7 +3,11 @@ from datetime import date
  
 class Servicio:
     def __init__(self, id_servicio: str, descripcion_servicio: str, id_doctor: str):
+        
+        
         # El ID debe iniciar con "SERV_" y no exceder 10 caracteres
+        
+        
         if not id_servicio or id_servicio.strip() == "":
             raise ValueError("El ID del servicio no puede estar vacío.")
         if not id_servicio.startswith("SERV_"):
@@ -20,5 +24,4 @@ class Servicio:
         self.id_doctor = id_doctor.strip()
  
     def validacion_servicio(self):
-        # Punto de extensión para reglas de negocio adicionales sobre el servicio
         return True

@@ -34,5 +34,4 @@ class Expediente:
         self.historial_citas = historial_citas if historial_citas is not None else []
  
     def validacion_expediente(self):
-        # Punto de extensión para reglas de negocio adicionales sobre el expediente
         return True
