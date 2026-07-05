@@ -1,0 +1,10 @@
+[
+  {
+    "id_expediente": "EXP_001",
+    "fecha_apertura": "2026-07-01",
+    "alergias_medicamentos": "Penicilina",
+    "enfermedades_preexistentes": "Ninguna",
+    "notas_medicas": "Paciente estable",
+    "historial_citas": []
+  }
+]
